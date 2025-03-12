@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES2024",
+      "module": "umd",
+      "declaration": true,
+      "outDir": "./dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "lib": ["DOM", "ES2024"]
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+  }
+  

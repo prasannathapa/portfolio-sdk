@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "SDK for connecting to portfolio ",
   "main": "index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "author": "Prasanna Thapa",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@directus/sdk": "^19.0.1"
+  }
 }
