@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-sdk",
+  "version": "1.0.0",
+  "description": "SDK for connecting to portfolio ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prasanna Thapa",
+  "license": "ISC"
+}
